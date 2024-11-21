@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryboobala",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "185f0513-2240-491d-90ac-9d7aa5988e55",
+		"tenantId": "eb5de12e-d04b-46b8-ab4f-153142755c22"
+	}
+}
