@@ -1,0 +1,20 @@
+{
+	"name": "output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet2",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Financial Sample - Copy (2).xlsx",
+				"container": "datafactorybooba"
+			}
+		},
+		"schema": []
+	}
+}
