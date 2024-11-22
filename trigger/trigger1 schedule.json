@@ -1,0 +1,24 @@
+{
+	"name": "trigger1 schedule",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/datafactorybooba/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/38473a8f-0726-4774-bd80-cb27f692f866/resourceGroups/datafactory1/providers/Microsoft.Storage/storageAccounts/adfstorageboobal",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
