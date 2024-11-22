@@ -1,5 +1,5 @@
 {
-	"name": "Excel1",
+	"name": "inputdatafactory",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
