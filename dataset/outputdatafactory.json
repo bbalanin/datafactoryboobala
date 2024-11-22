@@ -11,7 +11,7 @@
 			"sheetName": "Sheet2",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Financial Sample - Copy (2).xlsx",
+				"fileName": "Financial output.xlsx",
 				"container": "datafactorybooba"
 			}
 		},
